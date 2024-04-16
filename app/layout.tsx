@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "YO! Visual",
   description:
-    "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "We work for video production, video editing and motion graphic, currently available for work.",
   generator: "Next.js",
   applicationName: "YO! Visual",
   keywords: [
@@ -38,30 +38,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "YO! Visual",
     description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "We work for video production, video editing and motion graphic, currently available for work.",
     url: "http://localhost:3000",
     siteName: "http://localhost:3000",
-    images: [
-      {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
-        width: 1200,
-        height: 630,
-        alt: "Victor Williams — Frontend Engineer",
-      },
-    ],
     locale: "en-US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "YO! Visual",
-    description:
-      "Frontend Engineer and Product Designer, currently at Crown Branding Agency. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
-    creatorId: "1243720976552144897",
-    images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
-    ],
   },
   robots: {
     index: true,
