@@ -55,23 +55,23 @@ const Contact = () => {
                   className={"bor der w-[190px] pr-[40px] md:w-[170px] md:pr-0"}
                 />
               </Link>
-              {/* <AnimatedBody
+              <AnimatedBody
                 text={"or"}
                 className={
                   "bor der -mb-1 ml-2 inline-block overflow-hidden sm:-mb-2 md:-ml-[8px] md:-mb-3 lg:-mb-4"
                 }
               />
               <Link
-                href="https://calendly.com/victor-will-chuk/discovery-call-frontend-dev"
+                href="https://instagram.com"
                 target="_blank"
-                aria-label="Send me an email"
+                aria-label="Send an email"
                 className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
               >
                 <AnimatedBody
-                  text={"Book a call"}
+                  text={"DM IG"}
                   className={"w-[110px] md:w-[120px]"}
                 />
-              </Link> */}
+              </Link>
             </div>
           </div>
 
