@@ -30,9 +30,9 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#ee7214] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://instagram.com"
             target="_blank"
-            aria-label="View GitHub Profile"
+            aria-label="View Instagram Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#ee7214] md:text-[16px]"
@@ -42,7 +42,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -54,7 +54,7 @@ const Hero = () => {
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://twitter.com"
             target="_blank"
             aria-label="View Twitter Profile"
           >
