@@ -7,7 +7,7 @@ import "../globals.css";
 
 const BlogCard = ({ title, image, url, date, available }: blogProps) => {
   return (
-    <div className="relative flex h-[430px] w-[100%] max-w-[400px] flex-col items-center justify-start rounded-2xl bg-[#212531]">
+    <div className="relative flex h-[430px] w-[100%] max-w-[400px] flex-col items-center justify-start rounded-2xl bg-[#e4ded7]">
       <div className="mt-4 h-[100%] w-[90%] lg:mt-5 lg:w-[92%]">
         <div className="h-[60%] w-full md:h-[56%]">
           <Image
@@ -19,7 +19,7 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
           />
         </div>
 
-        <h3 className="mt-3 break-all uppercase leading-[1em] tracking-tight line-clamp-2">
+        <h3 className="mt-3  uppercase leading-[1em] tracking-tight text-[#ee7214] line-clamp-2">
           {title}
         </h3>
       </div>
@@ -37,7 +37,7 @@ const BlogCard = ({ title, image, url, date, available }: blogProps) => {
             >
               <FontAwesomeIcon
                 icon={faArrowRight}
-                className=" w-[16px] rounded-full bg-[#0E1016] p-3 text-[16px] text-[#fff] md:w-[20px] md:text-[20px] lg:w-[18px] lg:p-4 lg:text-[18px]"
+                className=" w-[16px] rounded-full bg-[#ee7214] p-3 text-[16px] text-[#fff] md:w-[20px] md:text-[20px] lg:w-[18px] lg:p-4 lg:text-[18px]"
                 data-blobity
                 data-blobity-radius="30"
                 data-blobity-offset-x="4"

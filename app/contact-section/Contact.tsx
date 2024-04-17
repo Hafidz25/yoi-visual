@@ -43,7 +43,7 @@ const Contact = () => {
                 "-mb-1 inline-block overflow-hidden pt-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
               }
             />
-            <div className="bor der flex w-[298px] items-center gap-1 md:w-[335px] md:gap-2.5">
+            <div className="bor der flex w-[238px] items-center gap-1 md:w-[335px] md:gap-2.5">
               <Link
                 href="mailto:example@gmail.com?subject=Lets%20work%20together!&amp;body=Hello%2C%20I%20think%20we%20need%20you%20to%20work%20on%2Fcollaborate%20this%20particular%20product...%20Reach%20out%20as%20soon%20as%20you%20can."
                 target="_blank"
@@ -51,7 +51,7 @@ const Contact = () => {
                 className="bor der mt-1 w-[147px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[170px] md:mt-3 lg:mt-4"
               >
                 <AnimatedBody
-                  text={"Send me an email"}
+                  text={"Send us an email"}
                   className={"bor der w-[190px] pr-[40px] md:w-[170px] md:pr-0"}
                 />
               </Link>
@@ -64,13 +64,10 @@ const Contact = () => {
               <Link
                 href="https://instagram.com"
                 target="_blank"
-                aria-label="Send an email"
-                className="bor der mt-1 w-[110px] flex-1 underline underline-offset-2 hover:no-underline sm:mt-2 sm:w-[147px] md:mt-3 md:-ml-[3px] md:w-[120px] lg:mt-4"
+                aria-label="DM"
+                className="bor der mt-1  flex-1 underline underline-offset-2 hover:no-underline sm:mt-2  md:mt-3 md:-ml-[3px]  lg:mt-4"
               >
-                <AnimatedBody
-                  text={"DM IG"}
-                  className={"w-[110px] md:w-[120px]"}
-                />
+                <AnimatedBody text={"DM IG"} className={""} />
               </Link>
             </div>
           </div>
