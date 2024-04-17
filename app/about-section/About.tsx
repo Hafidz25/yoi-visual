@@ -23,18 +23,18 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#ee7214] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "My passion lies in editing video that solves real-world problems and positively impacts people’s lives."
+                "Our passion lies in editing video that solves real-world problems and positively impacts people’s lives."
               }
             />
             <AnimatedBody
               text={
-                "Whether you need a promotional video that grabs attention, an explainer video that makes complex information clear, or a captivating social media edit, I'm here to help you achieve your video goals."
+                "Whether you need a promotional video that grabs attention, an explainer video that makes complex information clear, or a captivating social media edit, We here to help you achieve your video goals."
               }
               className={"hidden"}
             />
             <AnimatedBody
               text={
-                "Whether you need a promotional video that grabs attention, an explainer video that makes complex information clear, or a captivating social media edit, I'm here to help you achieve your video goals."
+                "Whether you need a promotional video that grabs attention, an explainer video that makes complex information clear, or a captivating social media edit, We here to help you achieve your video goals."
               }
             />
             <AnimatedBody
@@ -44,7 +44,7 @@ const About = () => {
             />
             <AnimatedBody
               text={
-                "Right now, I’m working on some exciting projects that I can’t wait to share with you. But I’m always open to new opportunities and collaborations."
+                "Right now, We working on some exciting projects that We can’t wait to share with you. But We always open to new opportunities and collaborations."
               }
             />
           </div>
