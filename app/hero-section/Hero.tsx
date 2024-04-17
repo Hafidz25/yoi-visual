@@ -16,7 +16,7 @@ const Hero = () => {
     >
       <motion.div className="absolute left-0 top-0 right-0 bottom-0 h-full w-full bg-[#fce6d5] mix-blend-color"></motion.div>
 
-      <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
+      <div className="absolute top-10 hidden justify-between sm:w-[90%] lg:flex lg:max-w-[1440px]">
         <div>
           <Link href="#" target="_blank" aria-label="View Resume">
             <motion.button
