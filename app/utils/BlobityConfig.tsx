@@ -14,6 +14,6 @@ export const initialBlobityOptions = {
   // fontColor: "#f9e8d8",
   zIndex: -1,
   size: 40,
-  radius: 4,
+  radius: 12,
   magnetic: true,
 };
