@@ -9,9 +9,13 @@ const Footer = () => {
       initial="initial"
       animate="animate"
     >
-      <motion.div className="mx-auto flex w-[90%] flex-row items-center justify-between text-center text-[12px] text-[#f9e8d9] sm:text-[12px] md:text-[14px] lg:max-w-[1440px] lg:text-[14px]">
-        <AnimatedBody text={"Copyright 2024"} className={"m-0 p-0"} />
-        <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
+      <motion.div className="mx-auto flex w-[90%] flex-col items-center justify-center text-center text-[12px] text-[#f9e8d9] sm:text-[12px] md:flex-row md:justify-between md:text-[14px] lg:max-w-[1440px] lg:text-[14px]">
+        <AnimatedBody
+          text={"Design & Development by YO! Visual"}
+          className={"m-0 p-0"}
+        />
+        <AnimatedBody text={"Copyright ©2024"} className={"m-0 p-0"} />
+        {/* <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
           <AnimatedBody
             text={"Design & Development by"}
             className={"m-0 p-0"}
@@ -21,7 +25,7 @@ const Footer = () => {
               <AnimatedBody text={"🥶"} className={"m-0 p-0"} />
             </span>{" "}
           </Link>
-        </div>
+        </div> */}
       </motion.div>
     </motion.section>
   );
