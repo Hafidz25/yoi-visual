@@ -7,6 +7,18 @@ import AnimatedWords from "../animations/AnimatedWords";
 import profile from "../../public/yoi-logo.png";
 
 const Hero = () => {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
+    // first prevent the default behavior
+    e.preventDefault();
+    // get the href and remove everything before the hash (#)
+    const href = e.currentTarget.href;
+    const targetId = href.replace(/.*\#/, "");
+    // get the element by id and use scrollIntoView
+    const elem = document.getElementById(targetId);
+    elem?.scrollIntoView({
+      behavior: "smooth",
+    });
+  };
   return (
     <motion.section
       className="relative z-10 flex h-[80vh] w-full items-stretch justify-center bg-[url('.//../public/hero.png')] bg-cover  bg-center py-0 sm:h-[90vh]  md:h-[100vh]"
@@ -18,7 +30,11 @@ const Hero = () => {
 
       <div className="absolute top-10 hidden justify-between sm:w-[90%] lg:flex lg:max-w-[1440px]">
         <div>
-          <Link href="#" target="_blank" aria-label="View Resume">
+          <Link
+            href="#work"
+            onClick={handleScroll}
+            aria-label="Scroll to Work Section"
+          >
             <motion.button
               className="hidden rounded-md border-2 border-[#ee7214] py-2 px-4 text-[14px] font-semibold text-[#ee7214] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
@@ -30,7 +46,7 @@ const Hero = () => {
 
         <div className="flex gap-10 text-[#ee7214] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://instagram.com"
+            href="https://www.instagram.com/yoi_visual/"
             target="_blank"
             aria-label="View Instagram Profile"
           >

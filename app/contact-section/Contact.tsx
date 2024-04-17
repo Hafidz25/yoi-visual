@@ -62,7 +62,7 @@ const Contact = () => {
                 }
               />
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/yoi_visual/"
                 target="_blank"
                 aria-label="DM"
                 className="bor der mt-1  flex-1 underline underline-offset-2 hover:no-underline sm:mt-2  md:mt-3 md:-ml-[3px]  lg:mt-4"
@@ -116,7 +116,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/yoi_visual/"
               target="_blank"
               aria-label="View Instagram Profile"
             >
