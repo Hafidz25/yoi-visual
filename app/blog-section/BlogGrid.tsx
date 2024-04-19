@@ -16,7 +16,7 @@ const Blog = () => {
         {" "}
         <AnimatedWords2
           title={"Projects"}
-          style={`flex w-full flex-col items-start text-center justify-center text-[76px] ${monaSans.className} font-extrabold uppercase leading-[1.1em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[76px] md:text-[190px] lg:text-center lg:text-[215.04px]`}
+          style={`flex w-full flex-col items-start text-center justify-center text-[76px] ${monaSans.className} font-extrabold uppercase leading-[1.1em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[76px] md:text-[96px] lg:text-center lg:text-[120px]`}
         />
         <AnimatedBody
           text="Some video projects that we have produced."
