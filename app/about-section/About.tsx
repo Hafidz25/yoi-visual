@@ -6,7 +6,7 @@ import AnimatedTitle from "../animations/AnimatedTitle";
 const About = () => {
   return (
     <section
-      className="relative z-10 w-full items-center justify-center overflow-hidden bg-[#f9e8d9] bg-cover bg-center pt-16 md:pt-20 md:pb-1 lg:pt-20 lg:pb-20"
+      className="relative z-10 w-full items-center justify-center overflow-hidden bg-gradient-to-br from-[#f9e8d9] to-[#ffffff] bg-cover bg-center pt-16 md:pt-20 md:pb-1 lg:pt-20 lg:pb-20"
       id="about"
     >
       <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
