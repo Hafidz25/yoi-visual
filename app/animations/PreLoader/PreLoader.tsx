@@ -13,7 +13,7 @@ const PreLoader = () => {
       <div className="texts-container w-500 flex h-60 items-center justify-center gap-[5px] overflow-hidden text-[14px] font-extrabold text-[#f9e8d9] opacity-0 sm:gap-[10px] sm:text-[16px] md:text-[18px] lg:text-[20px]">
         <span>Production,</span>
         <span>Editing,</span>
-        <span>Motion Graphic.</span>
+        <span>Visual.</span>
         <div className="sub hidden"></div>
       </div>
     </div>

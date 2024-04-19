@@ -16,12 +16,12 @@ const Blog = () => {
         {" "}
         <AnimatedWords2
           title={"Projects"}
-          style={`flex max-w-[500px] flex-col items-start text-left text-[126px] ${monaSans.className} font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[160px] md:text-[190px] lg:text-center lg:text-[215.04px]`}
+          style={`flex w-full flex-col items-start text-center justify-center text-[76px] ${monaSans.className} font-extrabold uppercase leading-[1.1em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center sm:text-[76px] md:text-[190px] lg:text-center lg:text-[215.04px]`}
         />
-        {/* <AnimatedBody
-          text="I write articles to reinforce my knowledge and help out others who might be building something similar."
+        <AnimatedBody
+          text="Some video projects that we have produced."
           className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px]"
-        /> */}
+        />
       </div>
       <div className="grid w-[90%] max-w-[1200px] grid-cols-1 grid-rows-1 place-content-center place-items-center gap-x-6 gap-y-6 md:grid-cols-2 lg:w-[850px]">
         {blogDetails.map((blog, index) => {
