@@ -2,8 +2,19 @@ import SongCarousel from "./SongCarousel";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import React from "react";
+import Lottie from "react-lottie";
+import catAnimation from "../animations/lottie/Animation - 1713754674167.json";
 
 const About = () => {
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: catAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
   return (
     <section
       className="relative z-10 w-full items-center justify-center overflow-hidden bg-gradient-to-br from-[#f9e8d9] to-[#ffffff] bg-cover bg-center pt-16 md:pt-20 md:pb-1 lg:pt-20 lg:pb-20"
@@ -95,6 +106,7 @@ const About = () => {
                 }
               />
             </div>
+            <Lottie options={defaultOptions} />
           </div>
         </div>
         {/* <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
