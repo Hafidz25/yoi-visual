@@ -6,7 +6,7 @@ import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
 import AnimatedWords2 from "../animations/AnimatedWords2";
 import { motion } from "framer-motion";
-import heartIcon from "../../public/heart-hands.png";
+import heartIcon from "../../public/test.jpg";
 
 const Contact = () => {
   return (
@@ -29,7 +29,7 @@ const Contact = () => {
           <Image
             src={heartIcon}
             alt="Heart Icon"
-            className="heartbeat md:-bottom-18 absolute -bottom-5 left-64 w-[120px] sm:-bottom-14 sm:left-[40%] md:left-[40%] md:w-[150px] lg:-bottom-16 lg:left-[42%] lg:w-[230px]"
+            className="heartbeat md:-bottom-18 absolute -bottom-5 left-64 w-[120px] rounded-2xl sm:-bottom-14 sm:left-[40%] md:left-[40%] md:w-[150px] lg:-bottom-16 lg:left-[42%] lg:w-[230px]"
           />
         </div>
 
